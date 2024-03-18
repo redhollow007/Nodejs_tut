@@ -1,4 +1,7 @@
 services:
-  web:
-    build: npm install && npm run build
-    publish: dist
+ - type: web
+    name: node-http-appx
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    staticPublishPath: public

@@ -1,17 +1,15 @@
 {
-  "name": "node_http_app",
+  "name": "node-http-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple Node.js HTTP application",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "redhollow",
-  "license": "ISC",
+  "engines": {
+     "node": "14.x"
+  },
   "dependencies": {
-    "nodemon": "^3.1.0"
+     "express": "^4.18.3"
   }
-}
+ }
